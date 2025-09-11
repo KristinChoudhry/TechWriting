@@ -2,21 +2,10 @@ title: My Docs Site
 description: Example technical documentation
 theme: just-the-docs
 
-# Required for canonical URLs and sitemap
 url: https://KristinChoudhry.github.io
-baseurl: /TechWriting 
+baseurl: /TechWriting
 
-# just-the-docs options
-logo: # e.g., /assets/logo.png
-search_enabled: true
 aux_links:
   "Project on GitHub": "https://github.com/KristinChoudhry/TechWriting"
 
-# Navigation behavior
-just_the_docs:
-  collections:
-    docs:
-      name: Documentation
-      permalink: "/:path/"
-      nav_exclude: false
-      sort_by: nav_order
+search_enabled: true
