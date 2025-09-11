@@ -1,4 +1,4 @@
-Standard Rate Loader FAQs
+# Standard Rate Loader FAQs
 
 This article covers common questions about the Standard Rate Loader for billing administrators and pricing managers.
 
