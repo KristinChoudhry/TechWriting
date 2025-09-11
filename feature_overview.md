@@ -1,7 +1,3 @@
----
-title: Product Catalog
-nav_order: 10
----
 
 # Product Catalog
 
