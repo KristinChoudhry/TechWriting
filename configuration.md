@@ -1,3 +1,5 @@
+# Configure Rate Uploads
+
 This article explains how to configure the Standard Rate Loader to apply bulk pricing updates from CSV files. You will prepare the data, upload it, map fields, validate, and apply updates.
 
 Prerequisites:
