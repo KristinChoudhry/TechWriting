@@ -1,11 +1,40 @@
-title: My Docs Site
-description: Example technical documentation
-theme: just-the-docs
+# _config.yml
+title: TechWriting
+description: Tech Writing Samples
+baseurl: "/TechWriting"   # project site uses /<repo-name>
+url: "https://kristinchoudhry.github.io"
 
-url: https://KristinChoudhry.github.io
-baseurl: /TechWriting
+# Use Just the Docs via remote theme
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
 
+# Just the Docs settings
+logo: # e.g., /assets/images/logo.png
+color_scheme: nil          # options: nil, "dark", "light"
 aux_links:
-  "Project on GitHub": "https://github.com/KristinChoudhry/TechWriting"
+  "View on GitHub":
+    - "https://github.com/KristinChoudhry/TechWriting"
 
+# Navigation (optional; Just the Docs will auto-build from headings if omitted)
+nav_external_links:
+  - title: GitHub Profile
+    url: https://github.com/KristinChoudhry
+
+# Search (enabled by default)
 search_enabled: true
+
+# Footer (optional)
+footer_content: "© 2025 Kristin Choudhry"
+
+# Collections/posts not used by default
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
