@@ -1,6 +1,6 @@
 # Syntax Reference Guide
 
-Creates a new product with specified configuration parameters. Use this when adding catalog items and setting rating methods and attributes.  
+This guide explains how to create a new product with specified configuration parameters. Use this when adding catalog items and setting rating methods and attributes.  
 
 ## Syntax  
 
