@@ -1,4 +1,4 @@
-#Syntax Reference Guide
+# Syntax Reference Guide
 
 Creates a new product with specified configuration parameters. Use this when adding catalog items and setting rating methods and attributes.  
 
