@@ -1,4 +1,4 @@
-# Product Catalog & Pricing API Guide 
+# Product Catalog & Pricing API Guide
 
 A comprehensive reference for integrating with the Product Catalog, Price Books, Rates, and Promotions. This guide covers authentication, versioning, resources, request/response schemas, errors, webhooks, pagination, filtering, and example calls in cURL and JavaScript/TypeScript (fetch/axios).
 
