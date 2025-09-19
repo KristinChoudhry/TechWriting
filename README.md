@@ -1,4 +1,4 @@
-# Kristin Davis - Writin Examples
+# Kristin Davis - Writing Examples
 
 Welcome! This site highlights my technical writing style for developers, admins, and end users. I focus on clarity, accuracy, and practical outcomes: helping readers complete tasks, understand systems, and troubleshoot with confidence.
 
