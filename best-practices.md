@@ -79,27 +79,27 @@ Use price books and pricing rules instead of embedding logic directly in product
 
 ## Common pitfalls to avoid
 
-### Pitfall: Overly complex per-product pricing
+### Overly complex per-product pricing
 
 - **Why it’s a problem**: Difficult to maintain; error-prone; inhibits experimentation; complicates audits.
 - **Recommendation**: Centralize logic in pricing rules/engines. Use a small set of reusable rule templates, and feed them product attributes intentionally (for example, `rate_per_unit`, `min_commitment`). Version rules and test with representative scenarios before rollout.
 
-### Pitfall: Uncontrolled catalog growth
+### Uncontrolled catalog growth
 
 - **Why it’s a problem**: Confuses users; slows operations; increases reporting complexity; fragments analytics.
 - **Recommendation**: Introduce governance, archival, and clear naming. Use a product request intake form, require justification for new SKUs, prefer parameterization over cloning, and set lifecycle states with target deprecation dates. Run quarterly SKU rationalization to merge or retire low-usage items.
 
-### Pitfall: Missing effective dating and overlaps
+### Missing effective dating and overlaps
 
 - **Why it’s a problem**: Causes mid-period price flips, double-charging, or unintended gaps.
 - **Recommendation**: Enforce non-overlapping ranges in validation; require `effective_start` and optional `effective_end`; provide a preview tool to evaluate pricing at boundary times.
 
-### Pitfall: Inconsistent tax and accounting mappings
+### Inconsistent tax and accounting mappings
 
 - **Why it’s a problem**: Leads to tax miscalculation, failed postings, and month-end reconciliation issues.
 - **Recommendation**: Tie each SKU to a tax category and GL account at activation. Automate checks against a master mapping table. Require finance review for tax-sensitive changes.
 
-### Pitfall: Region/segment visibility misconfiguration
+### Region/segment visibility misconfiguration
 
 - **Why it’s a problem**: Customers see the wrong products or prices; channel conflicts.
 - **Recommendation**: Use explicit scopes on products and price books. Test visibility with impersonation for key segments and regions.
